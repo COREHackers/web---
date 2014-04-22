@@ -1,0 +1,53 @@
+Enter file contents here
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>COREHackers　web検索ページ</title>
+
+    <!-- WinJS 参照 -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- ブラウザーホーム 参照 -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+   <div align="center"> <span style="width:500;font-size:30pt;font-family:STROKE;color:#0080ff;filter:glow(color=gold);">
+<Ruby>
+<Rb>CORE
+<Rt>
+</Ruby>
+
+<span style="color:orange;weight:medium;font-size:100pt;font-family:webdings;">m</span>
+<Ruby>
+<Rb>Hackers
+<Rt>
+</Ruby>
+</span></div>
+
+
+
+
+
+<legend>web検索</legend>
+<div class="iemw"></div>
+<div id="srchbd">
+<ul class="tab"><li class="tab0 first on"><span><a href="r/swes" id="search" hidefocus="true">ウェブ</a></span></li><li class="tab1"><span><a href="r/sims" id="isearch" hidefocus="true"></a></span></li><li class="tab2"><span><a href="r/svis" id="msearch" hidefocus="true">動画</a></span></li><li class="tab3"><span><a href="r/sdics" id="dsearch" hidefocus="true">辞書</a></span></li><li class="tab4"><span><a href="r/schs" id="ksearch" hidefocus="true"></a></span></li><li class="tab5"><span><a href="r/smas" id="csearch" hidefocus="true">地図</a></span></li><li class="tab6"><span><a href="r/srts" id="rtsearch" hidefocus="true"></a></span></li><li class="tab7" id="srchMore"><span><a class="pldwn" hidefocus="true" id="srchMorebtn" href="r/llst"></a></span><div class="floatingw" id="srchMorefw"><ul><li class="first"><a hidefocus="true" id="nsearch" href="r/lhe"></a></li><li><a hidefocus="true" id="shsearch" href="r/lsh"></a></li><li><a hidefocus="true" id="ausearch" href="r/lac"></a></li><li><a hidefocus="true" id="tlntsearch" href="r/stlnts"></a></li><li><a href="r/saps" id="appsearch" hidefocus="true"></a></li><li><a href="r/sdis" id="tsearch" hidefocus="true"></a></li><li><a href="r/srcps" id="rsearch" hidefocus="true"></a></li><li><a href="r/slc" id="lsearch" hidefocus="true"></a></li><li class="last"><a hidefocus="true" id="service" href="r/llst"></a></li></ul></div></li></ul>
+<p><label id="srchtxtBg"><input name="p" id="srchtxt" type="text" value="">
+</label><input type="submit" id="srchbtn" class="srchbtn" value="検索">
+</p>
+
+
+
+
+
+</body>
+</html>
